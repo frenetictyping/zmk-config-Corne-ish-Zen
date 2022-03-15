@@ -70,7 +70,7 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp TILDE  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT                      &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &HOME
+   &kp TILDE  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT                      &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp HOME
    &kp BKSP &kp BSLH  &hm LCTRL PIPE &hm LSHFT TILDE &hm LALT LBRC  &kp RBRC     &kp UNDER &hm RALT EQUAL &hm RSHFT UP &hm RCTRL LBKT &kp RBKT &kp END 
    &to 3 &kp K_UNDO &kp K_CUT &kp K_COPY &none &kp K_PASTE                &kp UNDER &kp LEFT  &kp DOWN       &kp RIGHT &none &kp DEL
                     	     &to 1     &trans       &trans                              &trans   &trans   &to 0
