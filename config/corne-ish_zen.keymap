@@ -21,7 +21,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "homerow mods";
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <150>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
@@ -42,7 +42,7 @@
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
    &kp TAB   &kp Q &kp W &kp F &kp P &kp B                  &kp J &kp L  &kp U     &kp Y   &kp SEMI  &kp MINUS
-   &kp BKSP &kp A &hm LCTRL R &hm LSHFT S &hm LALT T &kp G    &kp M &hm RALT N  &hm RSHFT E   &hm RCTRL I   &kp O   &kp SQT
+   &mo 2 &kp A &hm LCTRL R &hm LSHFT S &hm LALT T &kp G    &kp M &hm RALT N  &hm RSHFT E   &hm RCTRL I   &kp O   &kp SQT
    &to 3 &kp Z &kp X &kp C &kp D &hm LGUI V                 &hm LGUI K &kp H  &kp COMMA &kp DOT &kp FSLH  &kp CAPS
                   &to 1 &kp BKSP &kp RET             &kp ESC &kp SPACE &to 2
                         >;
@@ -72,7 +72,7 @@
                         bindings = <
    &kp TILDE  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT                      &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp HOME
    &kp BKSP &kp BSLH  &hm LCTRL PIPE &hm LSHFT TILDE &hm LALT LBRC  &kp RBRC     &kp UNDER &hm RALT EQUAL &hm RSHFT UP &hm RCTRL LBKT &kp RBKT &kp END 
-   &to 3 &kp K_UNDO &kp K_CUT &kp K_COPY &none &kp K_PASTE                &kp UNDER &kp LEFT  &kp DOWN       &kp RIGHT &none &kp DEL
+   &to 3 &kp K_UNDO &kp K_CUT &kp K_COPY &none &kp K_PASTE                &kp UNDER &kp LEFT  &kp DOWN       &kp RIGHT &kp PIPE &kp DEL
                     	     &to 1     &trans       &trans                              &trans   &trans   &to 0
                         >;
                 };
