@@ -42,7 +42,7 @@
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
    &kp TAB   &kp Q &kp W &kp F &kp P &kp B                  &kp J &kp L  &kp U     &kp Y   &kp SEMI  &kp MINUS
-   &mo 2 &kp A &hm LCTRL R &hm LSHFT S &hm LALT T &kp G    &kp M &hm RALT N  &hm RSHFT E   &hm RCTRL I   &kp O   &kp SQT
+   &mo 2 &kp A &hm LALT R &hm LSHFT S &hm LCTRL T &kp G    &kp M &hm RCTRL N  &hm RSHFT E   &hm RALT I   &kp O   &kp SQT
    &to 3 &kp Z &kp X &lt 1 C &lt 2 D &hm LGUI V                 &hm LGUI K &lt 2 H  &lt 1 COMMA &kp DOT &kp FSLH  &kp CAPS
                   &to 1 &kp BKSP &kp RET             &kp ESC &kp SPACE &to 2
                         >;
@@ -55,9 +55,9 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp GRAVE    &kp N1   &kp N2  &kp N3   &kp N4   &kp N5                       &kp N6   &kp N7   &kp N8 &kp N9 &kp N0 &kp HOME
-   &trans &kp HOME  &hm LCTRL END  &hm LSHFT UP &hm LALT LPAR &kp RPAR          &kp PLUS  &hm RALT MINUS  &hm RSHFT KP_MULTIPLY &hm RCTRL KP_DIVIDE &kp EQUAL &kp END
-   &to 3  &trans &kp LEFT  &kp DOWN  &kp RIGHT  &trans                      &kp C_PLAY_PAUSE  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN &kp DOT &kp BSLH &kp DEL 
+   &kp MULTIPLY    &kp DIVIDE   &kp N7         &kp N8      &kp N9          &kp MINUS                       &kp N6   &kp N7   &kp N8 &kp N9 &kp N0 &kp HOME
+   &kp        &kp HOME &hm LALT N4  &hm LSHFT N5  &hm LCTRL N6    &kp PLUS          &kp PLUS  &hm RCTRL MINUS  &hm RSHFT KP_MULTIPLY &hm RALT KP_DIVIDE &kp EQUAL &kp END
+   &to 3         &kp N0  &kp N1       &kp N2        &kp N3          &kp DOT                      &kp C_PLAY_PAUSE  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN &kp DOT &kp BSLH &kp DEL 
                           	        &to 0     &trans       &trans                              &trans   &trans   &to 2 
                         >;
                 };
@@ -71,7 +71,7 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &kp TILDE  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT                      &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp HOME
-   &kp BKSP &kp BSLH  &hm LCTRL PIPE &hm LSHFT TILDE &hm LALT LBRC  &kp RBRC     &kp UNDER &hm RALT EQUAL &hm RSHFT UP &hm RCTRL LBKT &kp RBKT &kp END 
+   &kp BKSP &kp BSLH  &hm LALT PIPE &hm LSHFT TILDE &hm LCTRL LBRC  &kp RBRC     &kp UNDER &hm RCTRL EQUAL &hm RSHFT UP &hm RALT LBKT &kp RBKT &kp END 
    &to 3 &kp K_UNDO &kp K_CUT &kp K_COPY &kp LBRC &kp RBRC               &kp UNDER &kp LEFT  &kp DOWN       &kp RIGHT &kp PIPE &kp DEL
                     	     &to 1     &trans       &trans                              &trans   &trans   &to 0
                         >;
