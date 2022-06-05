@@ -26,9 +26,6 @@
             bindings = <&kp>, <&kp>;
         };
     };
-};
-
-/ {
     macros {
         sym_times: sym_times {
             label = "symboltimes";
@@ -40,8 +37,6 @@
             , <&macro_release &kp LALT>
     ;
         };
-    };
-    {
         sym_div: sym_div {
             label = "symboldiv";
             compatible = "zmk,behavior-macro";
