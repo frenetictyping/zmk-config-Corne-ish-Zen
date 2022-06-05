@@ -31,7 +31,7 @@
 / {
     macros {
         times: times {
-            label = "times";
+            label = "alttimes";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -43,7 +43,7 @@
     };
     {
         division: division {
-            label = "division";
+            label = "altdivision";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -54,6 +54,7 @@
         };
     };
 };
+
 / {
         keymap {
                 compatible = "zmk,keymap";
