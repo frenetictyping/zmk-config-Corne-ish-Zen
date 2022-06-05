@@ -76,7 +76,7 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp SLASH    &kp MULTIPLY   &kp N7         &kp N8      &kp N9          &kp MINUS          &kp N6   &kp N7           &kp UP              &kp N9             &kp N0 &kp HOME
+   &kp KP_SLASH    &kp KP_MULTIPLY   &kp N7         &kp N8      &kp N9          &kp MINUS          &kp N6   &kp N7           &kp UP              &kp N9             &kp N0 &kp HOME
    &sym_div    &sym_times &hm LALT N4  &hm LSHFT N5  &hm LCTRL N6    &kp PLUS                   &kp PLUS  &hm RCTRL LEFT  &hm RSHFT DOWN &hm RALT RIGHT &kp EQUAL &kp END
    &to 3         &kp N0  &kp N1       &kp N2        &kp N3          &kp DOT                  &kp C_PLAY_PAUSE  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN &kp DOT &kp BSLH &kp DEL 
                           	        &to 0     &trans       &trans                            &trans   &trans   &to 2 
