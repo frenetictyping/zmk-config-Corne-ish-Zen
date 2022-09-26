@@ -65,7 +65,7 @@
    &kp TAB   &kp Q &kp W &lt 2 F &lt 1 P &kp B                  &kp J &lt 1 L  &lt 2 U     &kp Y   &kp SEMI  &kp MINUS
    &kp CAPS &kp A &hm LALT R &hm LSHFT S &hm LCTRL T &kp G    &kp M &hm RCTRL N  &hm RSHFT E   &hm RALT I   &kp O   &kp SQT
    &to 3 &kp Z &kp X &kp C &kp D &hm LGUI V                 &hm LGUI K &kp H  &kp COMMA &kp DOT &kp FSLH  &kp DEL
-                  &kp DOWN &kp BKSP &kp RET                  &kp ESC &kp SPACE &kp UP
+                  &kp K_SCROLL_DOWN &kp BKSP &kp RET                  &kp ESC &kp SPACE &kp K_SCROLL_UP
                         >;
                 };
                 number_layer {
